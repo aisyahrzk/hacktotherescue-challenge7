@@ -31,7 +31,7 @@ Raw Data obtained from raster files is processed and we extract the data related
 
 ### Model Usage
 
-The prediction model employs the XGBoost regressor (`XGBRegressor`) to predict NOx emissions based on the provided GeoTIFF data. The XGBoost model is known for its performance and efficiency in handling complex relationships within datasets.
+The prediction model employs the XGBoost regressor (`XGBRegressor`) to predict NOx emissions based on the provided GeoTIFF data. 
 
 ### Jupyter Notebook
 
