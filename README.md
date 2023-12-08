@@ -1,4 +1,4 @@
-# Emission Prediction Project README
+# EcoForecast: Forecasting Emissions for The Better
 
 ## Overview
 
@@ -48,13 +48,5 @@ A Jupyter notebook is provided with examples for reading and visualizing the dat
 ## Project Structure
 
 - **Notebooks:** Jupyter notebooks or Python scripts for data exploration, preprocessing, feature engineering, model training (XGBoost), and evaluation.
-- **Models:** Directory for storing the trained XGBoost regression model.
-- **Documentation:** Detailed documentation on the dataset, preprocessing steps, feature engineering, XGBoost model details, and evaluation metrics.
+- **Models:** `model.pkl` for storing the trained XGBoost regression model.
 - **Requirements:** `requirements.txt` specifying the Python libraries and dependencies needed to run the code successfully.
-
-## Getting Started
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/emission-prediction-project.git
-   cd emission-prediction-project
