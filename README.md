@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the Emission Prediction Project! This project aims to predict NOx emissions from power plants in Taiwan by leveraging a diverse set of datasets. Two primary types of datasets are provided: raster data in GeoTIFF format (satellite and weather data) and CSV files containing information on Taiwan's power plants.
+This repo contains the submission for airhackathon aims to predict NOx emissions from power plants in Taiwan by leveraging a diverse set of datasets. Two primary types of datasets are provided: raster data in GeoTIFF format (satellite and weather data) and CSV files containing information on Taiwan's power plants.
 
 ### Data Details
 
