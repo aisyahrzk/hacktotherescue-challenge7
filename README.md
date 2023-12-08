@@ -1,8 +1,8 @@
-# Emission Prediction Project README
+# EcoForecast: Forecasting Emissions for The Better
 
 ## Overview
 
-Welcome to the Emission Prediction Project! This project aims to predict NOx emissions from power plants in Taiwan by leveraging a diverse set of datasets. Two primary types of datasets are provided: raster data in GeoTIFF format (satellite and weather data) and CSV files containing information on Taiwan's power plants.
+This project aims to predict NOx emissions from power plants in Taiwan by leveraging a diverse set of datasets. Two primary types of datasets are provided: raster data in GeoTIFF format (satellite and weather data) and CSV files containing information on Taiwan's power plants.
 
 ### Data Details
 
@@ -48,13 +48,5 @@ A Jupyter notebook is provided with examples for reading and visualizing the dat
 ## Project Structure
 
 - **Notebooks:** Jupyter notebooks or Python scripts for data exploration, preprocessing, feature engineering, model training (XGBoost), and evaluation.
-- **Models:** Directory for storing the trained XGBoost regression model.
-- **Documentation:** Detailed documentation on the dataset, preprocessing steps, feature engineering, XGBoost model details, and evaluation metrics.
+- **Models:** model.pkl contains the xgboost regressor model.
 - **Requirements:** `requirements.txt` specifying the Python libraries and dependencies needed to run the code successfully.
-
-## Getting Started
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/emission-prediction-project.git
-   cd emission-prediction-project
