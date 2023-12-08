@@ -37,9 +37,9 @@ def plot_points_on_map(dataframe, begin_index, end_index, latitude_column, longi
     return fig
 
 # read csv from a github repo
-dataset_url = "/home/aisyah/hacktotherescue/Data/powerplant.csv"
-dataset_url2 = "/home/aisyah/hacktotherescue/Data/output.csv"
-dataset_url3 = "/home/aisyah/hacktotherescue/Data/prediction_test.csv"
+dataset_url = "https://raw.githubusercontent.com/aisyahrzk/hacktotherescue-challenge7/master/powerplant.csv"
+dataset_url2 = "https://raw.githubusercontent.com/aisyahrzk/hacktotherescue-challenge7/master/output.csv"
+dataset_url3 = "https://raw.githubusercontent.com/aisyahrzk/hacktotherescue-challenge7/master/prediction_test.csv"
 
 # read csv from a URL
 @st.cache_data
